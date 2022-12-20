@@ -1,0 +1,20 @@
+{"tag": "DEPT",
+         "patterns": ["How many departments are there in College","Total Departments in college","How many streams are in college " ],
+         "responses": ["There are 7 departments in college That are ENTC , IT , Computer Science , Mechanical , Arts , Commerce , Law"],
+         "context": [""]
+        },
+	{"tag": "DEPT",
+         "patterns": ["Whom to contact in ENTC dept","Whom to contact in ENTC department","how to contact ENTC teacher"],
+         "responses": ["For ENTC You can contact to this Person	"],
+         "context": [""]
+        },
+        {"tag": "COLD",
+         "patterns": ["i am having runny nose , sore throat , cough , congestion , body ache , head ache , sneezing , loss of smell , loss of taste , difficulty in breathing", "i am having difficulty in breathing , body ache, loss of taste, congestion , loss of smell , sneezing , sore throat" , "i am having head ache, congestion, runny nose, difficulty in breathing, loss of smell , body ache ,loss of taste" ],
+         "responses": ["It seems like you are having COLD ,You may take few medicines from this=>-Nasal decongestants, -Crocin , -Mucinex, -Tussionex, -Claritin-D 24 Hour , -Benadryl Allergy Plus Congestion "],
+         "context": ["search_blood_pressure_by_patient_id"]
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+         "responses": ["I can guide you through Advise drug list, Hospitals and Pharmacies", "Offering support for Advise drug , Hospitals and Pharmacies"],
+         "context": [""]
+        }
